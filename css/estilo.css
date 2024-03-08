@@ -1,0 +1,39 @@
+body{background: rgb(0, 0, 255);}
+#contenedor{position: relative;}
+#arriba1{
+    position: absolute;
+    top: 290px;left: 5px;
+    border: none;
+    opacity: 0.9;
+}
+#arriba2{
+    position: absolute;
+    top: 70px; left: 620px;
+    border: none;
+    opacity: 0.9;
+}
+#arriba3{
+    position: absolute;
+    top: 700px;left: 600px;
+    border: none;
+    opacity: 0.9;
+}
+#arriba4{
+    position: absolute;
+    top: 280px;left: 890px;
+    border: none;
+    opacity: 0.9;
+}
+canvas{margin: 0 auto;}
+h3,p{
+    margin: 10px;
+    background: rgb(255, 255, 0);
+    color: red;
+    font-family: sans-serif;
+    font-size: 200%; font-weight: bold;
+}
+p#a0{color: rgba(255 0 0 /0);}
+p#a25{color: rgba(255 0 0 /25%);}
+p#a50{color: rgba(255 0 0 /50%);}
+p#a75{color: rgba(255 0 0 /75%);}
+p#a100{color: rgba(255 0 0 /100%);}
